@@ -1,0 +1,44 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Node and Python (if used for Lambdas)
+node_modules/
+.env
+*.pyc
+__pycache__/
+
+# AWS credentials & config (never commit!)
+.aws/
+*.pem
+*.key
+
+# Logs and temp files
+*.log
+*.bak
+*.tmp
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS metadata
+ehthumbs.db
+desktop.ini
+
+# macOS-specific
+.AppleDouble
+.LSOverride
+
+# S3/CloudFormation packaging output
+*.zip
+*.tar.gz
+
+# Terraform or CDK (if used)
+*.tfstate
+*.tfstate.backup
+cdk.out/
+
+# Optional: ignore screenshots if not checked in
+# /assets/screenshots/
